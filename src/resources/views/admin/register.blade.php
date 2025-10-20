@@ -31,7 +31,8 @@
   <div class="register-form__heading">
     <h2>Register</h2>
   </div>
-  <form class="form" method="POST" action="/login">
+  <form class="form" method="POST" action="/register">
+    @csrf`
     <div class="form__group">
       <div class="form__group-title">
         <span class="form__label--item">お名前</span>

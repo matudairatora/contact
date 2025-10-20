@@ -28,7 +28,8 @@
   <div class="login-form__heading">
     <h2>Login</h2>
   </div>
-  <form class="form" method="POST" action="/admin">
+  <form class="form" method="post" action="/login">
+    @csrf`
        
     <div class="form__group">
       <div class="form__group-title">
